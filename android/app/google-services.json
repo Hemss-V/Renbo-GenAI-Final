@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "35761630172",
+    "project_id": "renbo-genai",
+    "storage_bucket": "renbo-genai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35761630172:android:2e3411378118358ee97d19",
+        "android_client_info": {
+          "package_name": "com.example.renbo_t"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQjlMRHgDVAklC8CUku_k-V0G1k4hZ2nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

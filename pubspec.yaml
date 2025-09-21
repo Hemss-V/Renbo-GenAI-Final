@@ -1,0 +1,66 @@
+name: renbo
+description: A mental wellness and journaling app.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  dio: ^5.3.0
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  image_picker: ^1.0.4
+  file_selector: ^1.0.4
+  speech_to_text: ^7.3.0
+  flutter_tts: ^3.6.0
+  url_launcher: ^6.2.1
+  lottie: ^2.3.2
+  animations: ^2.0.8
+  flutter_dotenv: ^5.1.0
+  provider: ^6.1.1
+  path_provider: ^2.1.1
+  record: ^6.0.0
+  firebase_core: ^3.8.0
+  firebase_auth: ^5.6.0
+  firebase_auth_web: ^5.8.13
+  audioplayers: ^5.1.0
+  audioplayers_platform_interface: ^6.1.0
+  google_generative_ai: ^0.4.7
+  uuid: ^4.3.3
+  table_calendar: ^3.0.9 
+  intl: ^0.20.2
+  just_audio: ^0.10.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+  analyzer: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lottie/
+    - .env
+    - assets/audio/zen.mp3
+    - assets/audio/rain.mp3
+    - assets/audio/soul.mp3
+    - assets/audio/white_noise.mp3
+    - assets/audio/pink_noise.mp3
+    - assets/audio/brown_noise.mp3
+    - assets/stickers/
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
